@@ -8,8 +8,8 @@ VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-    # config.vm.network "public_network"
-    config.vm.network "private_network", ip: "172.168.90.65"
+    config.vm.network "public_network"
+    # config.vm.network "private_network", ip: "172.168.90.65"
     config.vm.hostname = "#{hostname}"
 
     config.vm.define "u14" do |u14|
