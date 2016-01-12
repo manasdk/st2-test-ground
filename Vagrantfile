@@ -32,6 +32,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     # Configure a private network
 
-    config.vm.provision "shell", inline: "curl -sSL http://stackstorm.com/install.sh | sudo su"
+    # config.vm.provision "shell", inline: "curl -sSL http://stackstorm.com/install.sh | sudo su"
 
 end
